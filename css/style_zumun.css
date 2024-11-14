@@ -1,0 +1,71 @@
+@charset "utf";
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.clearfix::after, .clearfix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    background-color: #ec7b7b;
+}
+
+.container{
+    width: 1250px;
+    height: 950px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.ban1{
+    padding-top: 10px;
+}
+.ban_img{
+    width: 550px;
+    height: 350px;
+    float: left;
+    display: block;
+    text-align: right;
+}
+.ban_img img{
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.ban_text{
+    float: right;
+    width: 690px;
+    height: 350px;
+    text-align: center;
+}
+.ban_text span{
+    font-size: 22px;
+}
+.ban_text table{
+    width: 500px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+.ban_text table tr{}
+.ban_text table td{
+    padding: 10px;
+}
+.ban_text table td input{
+    width: 80px;
+    height: 20px;
+    outline: none;
+}
+.ban_text button{
+    background-color: #dddddd;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ban_text button:active{
+    color: #ec7b7b;
+}
+
+.ban2{
+    margin-top: 30px;
+}
